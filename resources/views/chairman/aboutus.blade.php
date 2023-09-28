@@ -195,10 +195,12 @@ https://templatemo.com/tm-520-highway
                     <div class="fw-about">
                         <a href="" class="site-logo-footer"> <img
                                 src="{{ asset('images/main/mainlayout/logo_light_long.png') }}" alt=""></a>
-                        <p>International Homoeopathic Hospital and Research Institute (I.H.H.R.I) is a medical
-                            clinic and a Homeopathic research institute. The client request is to create a web based
+                        <p>GHOSH CLINIC | Homeopathic & Nutrifit Diet Clinic is a Homeopathic Treatments center. It is a web based
                             application to manage their patient details, make appointments through the online and
-                            also to make patients payments through online as well as the clinic</p>
+                            also to make patients payments through online as well as the clinic <br> 
+                            <span>Dr. Swati Ghosh, Homeopathy Doctor, Dhunela, Sohna, 8478019973, Near Global Heights, Signature GLobal Park, Ashiȧnȧ Anmol, Central Park Flower Valley, Sohna Road</span>
+                            <p><a href="https://maps.app.goo.gl/oHQSbFPvy1FMaTfP6">Clinic Direction | Google Map</a></p>
+                        </p>
                         <div class="fw-social">
                             <a href=""><i class="fa fa-pinterest"></i></a>
                             <a href=""><i class="fa fa-facebook"></i></a>
@@ -233,23 +235,27 @@ https://templatemo.com/tm-520-highway
                             <table>
                                 <tr>
                                     <td>Monday</td>
-                                    <td>8:00am - 12:00pm</td>
+                                    <td>8:00am - 21:00pm</td>
                                 </tr>
                                 <tr>
                                     <td>Tuesday</td>
-                                    <td>8:00am - 12:00pm</td>
+                                    <td>8:00am - 21:00pm</td>
                                 </tr>
                                 <tr>
                                     <td>Wednesday</td>
-                                    <td>8:00am - 12:00pm</td>
+                                    <td>8:00am - 21:00pm</td>
                                 </tr>
                                 <tr>
                                     <td>Thursday</td>
-                                    <td>8:00am - 12:00pm</td>
+                                    <td>8:00am - 21:00pm</td>
                                 </tr>
                                 <tr>
                                     <td>Friday</td>
-                                    <td>8:00am - 12:00pm</td>
+                                    <td>8:00am - 21:00pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday</td>
+                                    <td>8:00am - 21:00pm</td>
                                 </tr>
                                 <tr>
                                     <td>Sunday</td>

@@ -11,8 +11,8 @@
                     <img src="{{ asset('images/main/mainlayout/icons/map-marker.png') }}" alt="">
                 </div>
                 <div class="hi-content">
-                    <h6>04 Michael's Road</h6>
-                    <p>Colombo Sri Lanka</p>
+                    <h6>Ghosh Clinic, Berka Road</h6>
+                    <p>Dhunela, Sohna, Haryana 122103</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 hi-item">
@@ -21,7 +21,7 @@
                 </div>
                 <div class="hi-content">
                     <h6>Opening Hours</h6>
-                    <p>Mon - Sat: 8:00 - 19:00</p>
+                    <p>Mon - SUN: 8:00 - 21:00</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 hi-item">
@@ -29,7 +29,7 @@
                     <img src="{{ asset('images/main/mainlayout/icons/phone.png') }}" alt="">
                 </div>
                 <div class="hi-content">
-                    <h6>+94 11 534561</h6>
+                    <h6>+91 8478019973</h6>
                     <p>Call us now!</p>
                 </div>
             </div>
@@ -76,7 +76,10 @@
                             treatments involved blood-letting and giving doses of medicine so large the patient often
                             died.
                         </p>
-                        <a href="#" class="site-btn">Read More</a>
+                        <p> Available Homeopathic Treatments:
+                        <a href="https://ghoshclinic.com" class="site-btn">
+                            1. Acne 2. Allergic 3. Allergies 4. Alopecia Areata 5. Spondylitis 6. Asthma 7. (ADHD) 8. Autism 9. Backache 10. Bone Health 11. Bronchitis 12. Childhood Obesity 13. Gallstones 14. Constipation 15. Dandruff 16. Depression 17. Diabetes 18. Eczema 19. (FPB) 20. Dysfunction 21. Hair Loss 22. Hyperthyroidism 23. Hypothyroidism 24. Infertility 25. (IBS) 26. Leucorrhoea 27. Lichen Planus 28. Male Infertility 29. (MPB) 30. Menopause 31. Migraine 32. Osteoarthritis 33. (PCOS) 34. Weight Gain 35. Piles 36. (PMS) 37. Psoriasis 38. Scalp Psoriasis 39. Rheumatoid Arthritis 40. Tonsillitis 41. Trichotillomania 42. Urinary Incontinence 43. Urinary Tract Infections 44. Upper Respiratory Tract Infection (URTI) 45. Vitiligo 46. Warts
+                        </a>
                     </div>
                 </div>
             </div>
@@ -117,6 +120,8 @@
                 <p>Our experienced team care deeply about your well being. An experience over 30 years of homeopathy
                     treatments. A well-trained and professional staff at your service. A gentle and friendly staff to
                     take care of you.</p>
+
+                    <p>Orthopaedic / Arthroscopy Hair Fall Treatment Constipation Blood Pressure Test Medication Joint Pain Management Infertility Skin Treatment Piles Treatment (Non Surgical) Urinary Tract Infection Diabetes Vertigo Treatment PCOS/PCOD Treatment Anxiety Disorder Treatment Child Psychologist Weight Loss/Gain Infertility Treatment OPD Services PCOD Gynae Problems Metabolic Diseases PCOD & Breast Problems Urine Stone Pediatric PCOS General Paediatrics Glaucoma Personal and Professional Growth Hair Fall/Acne/Allergy/Weight Loss-Gain Anxiety Depression Anger Problems Weight Loss Treatment Thyroid Kidney Stones Treatment Consultation General Gynecology Video Counselling Migraine PCOS/PCOD & women related disorders Arthritis Treatment Obstetrics & Gynaecology Pediatrics Orthopaedics Tonsillitis Treatment Health Screening General Medical Consultation Gynaecological Care & Counselling Pregnancy Menstrual Disorders Management Dermatology Preventive Medicine Acidity Skin Disease Treatment Weight Loss Sexual Problems Facial Osteopathy Spine Problems Joint Pain</p>
             </div>
         </div>
     </div>
