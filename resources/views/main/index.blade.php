@@ -8,10 +8,10 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 hi-item">
                 <div class="hs-icon">
-                    <img src="{{ asset('images/main/mainlayout/icons/map-marker.png') }}" alt="">
+                    <a href="https://maps.app.goo.gl/oHQSbFPvy1FMaTfP6"><img src="{{ asset('images/main/mainlayout/icons/map-marker.png') }}" alt="GHOSH CLINIC"></a>
                 </div>
                 <div class="hi-content">
-                    <h6>Ghosh Clinic, Berka Road</h6>
+                    <h6><a href="https://maps.app.goo.gl/oHQSbFPvy1FMaTfP6">Ghosh Clinic, Berka Road</a></h6>
                     <p>Dhunela, Sohna, Haryana 122103</p>
                 </div>
             </div>
