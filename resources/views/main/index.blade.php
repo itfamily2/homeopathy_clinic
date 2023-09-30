@@ -53,8 +53,8 @@
             <div class="container">
                 <div class="row">
                 <div class="col-xl-7" style="color: black;">
-                        <h2 style="color: red;">Homeopathic Treatment</h2>
-                    <p>
+                        <h2 style="color: red;">Homeopathy</h2>
+                    <p style="color:#834fa9;">
                     Skin is the largest organ of our body. One of the main functions of skin is to protect our body from various external factors such as bacteria, chemicals and temperature.
 It is natural to be concerned about the health of your skin and seek the best treatment possible. Skin problems are faced by all but are more commonly observed in females as they are more cautious about their skin appearance.
 Ghosh Clinic expert homeopathic doctors specialise in treating all types of skin and all skin concerns from the root cause with the help of effective and personalised homeopathic skin treatments, proper diet and lifestyle management.
@@ -68,8 +68,8 @@ Ghosh Clinic expert homeopathic doctors specialise in treating all types of skin
             <div class="container">
                 <div class="row">
                 <div class="col-xl-7" style="color: black;">
-                        <h2 style="color: red;">Homeopathic Treatment</h2>
-                        <p> 
+                        <h2 style="color: red;">Homeopathy</h2>
+                        <p style="color:#834fa9;"> 
                         <b>What is Diabetes?</b>
 Diabetes mellitus is a disease which is characterised by an increase in blood sugar levels (hyperglycaemia). Diabetes can affect individuals in any age group. Insulin is a hormone produced by the pancreas that digests the sugar present in our food.
 Diabetes occurs when either the body is unable to produce enough insulin or the body becomes insulin resistant.
@@ -83,8 +83,8 @@ Diabetes occurs when either the body is unable to produce enough insulin or the 
             <div class="container">
                 <div class="row">
                     <div class="col-xl-7" style="color: black;">
-                        <h2 style="color: red;">Homeopathic Treatment</h2>
-                        <p>
+                        <h2 style="color: red;">Homeopathy</h2>
+                        <p style="color:#834fa9;">
 Male-pattern baldness is extremely common and begins with a receding hairline or bald spot on the top of the head along with thinning of hair at the crown and temples forming a horseshoe shape.
 Female pattern baldness occurs with thinning of hair on the top and crown of the head. It is less common but mostly observed in post-menopausal women.
 Major factors that contribute to hair loss include excessive use of harsh chemicals, and colours, changing hair products frequently, and electric hair appliances like curling irons, hair straighteners and hair dryers.
