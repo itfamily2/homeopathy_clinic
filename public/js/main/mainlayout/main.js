@@ -14,7 +14,7 @@ $(window).on('load', function() {
 		Preloder
 	--------------------*/
 	$(".loader").fadeOut(); 
-	$("#preloder").delay(400).fadeOut("slow");
+	$("#preloder").delay(1).fadeOut("slow");
 
 });
 
@@ -48,7 +48,12 @@ $(window).on('load', function() {
 		animateOut: 'fadeOut',
 		animateIn: 'fadeIn',
 		items: 1,
-		autoplay: true
+		autoplay: true,
+		autoplayTimeout:3000,
+		autoplayHoverPause:true,
+ 		responsiveClass:true,
+		 margin:0,
+
 	});
 
 	var dot = $('.hero-slider .owl-dot');
