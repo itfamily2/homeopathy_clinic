@@ -42,16 +42,30 @@ $(window).on('load', function() {
 	--------------------*/
 	$('.hero-slider').owlCarousel({
 		loop: true,
-		nav: true,
+		nav: false,
 		dots: true,
 		mouseDrag: false,
 		animateOut: 'fadeOut',
 		animateIn: 'fadeIn',
-		items: 4,
+		items: 1,
 		autoplay: true,
 		autoplayTimeout:3000,
 		autoplayHoverPause:true,
  		responsiveClass:true,
+		 responsive:{
+			0:{
+				items:1,
+			},
+			600:{
+				items:2
+			},
+			800:{
+				items:3
+			},
+			1200:{
+				items:4
+			}
+		},
 		margin:0,
 
 	});
