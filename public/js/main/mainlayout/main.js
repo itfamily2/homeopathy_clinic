@@ -52,21 +52,7 @@ $(window).on('load', function() {
 		autoplayTimeout:3000,
 		autoplayHoverPause:true,
  		responsiveClass:true,
-		 responsive:{
-			0:{
-				items:1,
-			},
-			600:{
-				items:2
-			},
-			800:{
-				items:3
-			},
-			1200:{
-				items:4
-			}
-		},
-		margin:0,
+		margin:1,
 
 	});
 
