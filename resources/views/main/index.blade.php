@@ -49,11 +49,11 @@
 <!-- Hero section -->
 <section class="hero-section image-overlay">
     <div class="hero-slider owl-carousel">
-        <div class="hs-item set-bg text-white" data-setbg="{{ asset('images/main/index/ezgif.com-webp-to-png (2).png') }}">
+        <div class="hs-item set-bg text-white" data-setbg="{{ asset('images/main/index/ezgif.com-webp-to-skin.png') }}">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-7">
-                    <h2>Common Skin Issues Treated With Homeopathy</h2>
+                <div class="col-xl-7" style="color: black;">
+                        <h2 style="color: red;">Common Skin Issues Treated With Homeopathy</h2>
                     <p>
                     Skin is the largest organ of our body. One of the main functions of skin is to protect our body from various external factors such as bacteria, chemicals and temperature.
 It is natural to be concerned about the health of your skin and seek the best treatment possible. Skin problems are faced by all but are more commonly observed in females as they are more cautious about their skin appearance.
@@ -74,8 +74,8 @@ Changes in one’s skin are a reflection of underlying health issues.
         <div class="hs-item set-bg text-white" data-setbg="{{ asset('images/main/index/ezgif.com-webp-to-png.png')}}">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-7">
-                        <h2>Symptoms of Diabetes & Homeopathic Treatment</h2>
+                <div class="col-xl-7" style="color: black;">
+                        <h2 style="color: red;">Symptoms of Diabetes & Homeopathic Treatment</h2>
                         <p> 
                         <b>What is Diabetes?</b>
 Diabetes mellitus is a disease which is characterised by an increase in blood sugar levels (hyperglycaemia). Diabetes can affect individuals in any age group. Insulin is a hormone produced by the pancreas that digests the sugar present in our food.
@@ -99,11 +99,11 @@ Diabetic retinopathy - a type of glaucoma caused due to diabetes
                 </div>
             </div>
         </div>
-        <div class="hs-item set-bg text-white" data-setbg="{{ asset('images/main/index/ezgif.com-webp-to-png (1).png')}}">
+        <div class="hs-item set-bg text-white" data-setbg="{{ asset('images/main/index/ezgif.com-webp-to-hair.png')}}">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-7">
-                        <h2>Hair Loss? & Homeopathic Treatment</h2>
+                    <div class="col-xl-7" style="color: black;">
+                        <h2 style="color: red;">Hair Loss? & Homeopathic Treatment</h2>
                         <p> 
                         <b>Symptoms of Hair Loss</b>
 Some of the common symptoms of hair loss include:
@@ -127,8 +127,8 @@ Major factors that contribute to hair loss include excessive use of harsh chemic
         <div class="hs-item set-bg text-white" data-setbg="{{ asset('images/main/index/doctor_group.jpg') }}">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-7">
-                    <h2>How Does Homeopathy Help?</h2>
+                <div class="col-xl-7" style="color: black;">
+                        <h2 style="color: red;">How Does Homeopathy Help?</h2>
                     <p>
 Homeopathy (or Homoeopathy) is a 200-year-old holistic system of alternative medicine that works on the principle of “like cures like”. Homeopathic medicines stimulate your body’s innate healing response to combat the disease.
 Each individual has different characteristics and severity of symptoms of a disease. Homeopathic medicines are selected on the basis of your individualistic characteristics and severity of symptoms (mental, physical and emotional), history of illness, lifestyle and hereditary factors.
