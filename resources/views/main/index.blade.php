@@ -117,11 +117,13 @@
             </div>
             <div class="col-lg-7 about-text">
                 <h2>We Care About Your Health</h2>
-                <p>Our experienced team care deeply about your well being. An experience over 30 years of homeopathy
-                    treatments. A well-trained and professional staff at your service. A gentle and friendly staff to
-                    take care of you.</p>
+                <p>
+                Homeopathy is a 200-year-old system of alternative holistic medicine. It is the preferred form of medical treatment for approximately 100 million individuals in India.
+Homeopathic medicines are made from natural substances, which is considered a safer form of medical treatment. Natural substances’ healing properties are used to cure and treat various medical conditions, whether acute or chronic, without any side effects.
+With the passage of time, homeopathy has helped people find relief from their diseases where other treatments failed.
+                </p>
 
-                    <p>Orthopaedic / Arthroscopy Hair Fall Treatment Constipation Blood Pressure Test Medication Joint Pain Management Infertility Skin Treatment Piles Treatment (Non Surgical) Urinary Tract Infection Diabetes Vertigo Treatment PCOS/PCOD Treatment Anxiety Disorder Treatment Child Psychologist Weight Loss/Gain Infertility Treatment OPD Services PCOD Gynae Problems Metabolic Diseases PCOD & Breast Problems Urine Stone Pediatric PCOS General Paediatrics Glaucoma Personal and Professional Growth Hair Fall/Acne/Allergy/Weight Loss-Gain Anxiety Depression Anger Problems Weight Loss Treatment Thyroid Kidney Stones Treatment Consultation General Gynecology Video Counselling Migraine PCOS/PCOD & women related disorders Arthritis Treatment Obstetrics & Gynaecology Pediatrics Orthopaedics Tonsillitis Treatment Health Screening General Medical Consultation Gynaecological Care & Counselling Pregnancy Menstrual Disorders Management Dermatology Preventive Medicine Acidity Skin Disease Treatment Weight Loss Sexual Problems Facial Osteopathy Spine Problems Joint Pain</p>
+                    <p>▲ Orthopaedic / Arthroscopy ▲ Hair Fall Treatment ▲ Constipation ▲ Blood Pressure Test ▲ Medication ▲ Joint Pain Management ▲ Infertility ▲ Skin Treatment ▲ Piles Treatment (Non Surgical) ▲ Urinary Tract Infection ▲ Diabetes ▲ Vertigo Treatment ▲ PCOS/PCOD Treatment ▲ Anxiety ▲ Disorder Treatment ▲ Child Psychologist ▲ Weight Loss/Gain ▲ Infertility Treatment ▲ OPD Services PCOD Gynae Problems ▲ Metabolic Diseases ▲ PCOD & Breast Problems ▲ Urine ▲ Stone ▲ Pediatric ▲ PCOS General Paediatrics ▲ Glaucoma ▲ Personal and Professional Growth ▲ Hair Fall ▲ Acne ▲ Allergy ▲Weight Loss-Gain ▲ Anxiety ▲ Depression ▲ Anger Problems ▲ Weight Loss Treatment ▲ Thyroid ▲ Kidney Stones Treatment ▲ Consultation ▲ General Gynecology ▲ Video Counselling  ▲ Migraine ▲ PCOS/PCOD & women related disorders ▲ Arthritis Treatment ▲ Obstetrics & Gynaecology ▲ Pediatrics Orthopaedics ▲ Tonsillitis Treatment ▲ Health Screening ▲ General Medical Consultation ▲ Gynaecological Care & Counselling ▲ Pregnancy Menstrual Disorders Management ▲ Dermatology ▲Preventive Medicine ▲ Acidity ▲ Skin Disease Treatment ▲ Weight Loss ▲ Sexual Problems ▲ Facial Osteopathy ▲ Spine Problems ▲ Joint Pain</p>
             </div>
         </div>
     </div>
