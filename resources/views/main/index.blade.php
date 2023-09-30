@@ -135,8 +135,8 @@
         <div class="row">
             <div class="col-md-3 col-sm-6 fact">
                 {{-- <i class="flaticon-017-pill"></i> --}}
-                <h2>531</h2>
-                <p>Cycles</p>
+                <h2>Exp.3 Years</h2>
+                <p>Homeopathy General Physician</p>
             </div>
             <div class="col-md-3 col-sm-6 fact">
                 {{-- <i class="flaticon-002-toothbrush-1"></i> --}}
@@ -145,12 +145,12 @@
             </div>
             <div class="col-md-3 col-sm-6 fact">
                 {{-- <i class="flaticon-030-tooth"></i> --}}
-                <h2>3</h2>
-                <p>Countries</p>
+                <h2>1000+</h2>
+                <p>Homeopathic Online Consultation</p>
             </div>
             <div class="col-md-3 col-sm-6 fact">
                 {{-- <i class="flaticon-023-tooth-1"></i> --}}
-                <h2>2134</h2>
+                <h2>5000+</h2>
                 <p>Happy Patients and Customers</p>
             </div>
         </div>
