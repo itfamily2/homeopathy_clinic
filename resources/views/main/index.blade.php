@@ -53,18 +53,11 @@
             <div class="container">
                 <div class="row">
                 <div class="col-xl-7" style="color: black;">
-                        <h2 style="color: red;">Common Skin Issues Treated With Homeopathy</h2>
+                        <h2 style="color: red;">Homeopathic Treatment</h2>
                     <p>
                     Skin is the largest organ of our body. One of the main functions of skin is to protect our body from various external factors such as bacteria, chemicals and temperature.
 It is natural to be concerned about the health of your skin and seek the best treatment possible. Skin problems are faced by all but are more commonly observed in females as they are more cautious about their skin appearance.
 Ghosh Clinic expert homeopathic doctors specialise in treating all types of skin and all skin concerns from the root cause with the help of effective and personalised homeopathic skin treatments, proper diet and lifestyle management.
-                    </p>
-                    <p>
-                    <b>Quick Facts</b>
-Skin accounts for about 15% of your body weight.
-An average person has about 300 million skin cells.
-Skin plays a very important role in regulating the body temperature.
-Changes in one’s skin are a reflection of underlying health issues.
                     </p>
                     </div>
                 </div>
@@ -75,24 +68,11 @@ Changes in one’s skin are a reflection of underlying health issues.
             <div class="container">
                 <div class="row">
                 <div class="col-xl-7" style="color: black;">
-                        <h2 style="color: red;">Symptoms of Diabetes & Homeopathic Treatment</h2>
+                        <h2 style="color: red;">Homeopathic Treatment</h2>
                         <p> 
                         <b>What is Diabetes?</b>
 Diabetes mellitus is a disease which is characterised by an increase in blood sugar levels (hyperglycaemia). Diabetes can affect individuals in any age group. Insulin is a hormone produced by the pancreas that digests the sugar present in our food.
 Diabetes occurs when either the body is unable to produce enough insulin or the body becomes insulin resistant.
- 
-<b>Symptoms of Diabetes </b>
-Frequent urination, especially at night
-Increased water intake
-Weight loss in insulin deficiency
-Obesity in Type 2 Diabetes mellitus
-Dry mouth
-Numbness and tingling sensation in hands and feet
-Dry skin
-Fatigue
-Increased hunger
-Hair loss
-Diabetic retinopathy - a type of glaucoma caused due to diabetes
                         </p>
                         <a href="https://ghoshclinic.com" class="site-btn">Read More</a>
                     </div>
@@ -103,17 +83,8 @@ Diabetic retinopathy - a type of glaucoma caused due to diabetes
             <div class="container">
                 <div class="row">
                     <div class="col-xl-7" style="color: black;">
-                        <h2 style="color: red;">Hair Loss? & Homeopathic Treatment</h2>
-                        <p> 
-                        <b>Symptoms of Hair Loss</b>
-Some of the common symptoms of hair loss include:
-A sudden increase in the visible hair on the pillow or after hair wash
-Gradual thinning and loss of hair on top of the head
-Circular bald spots
-Scaling patches over the scalp
-Loss of hair from the entire body
- 
-<b>Quick Facts About Hair Loss</b>
+                        <h2 style="color: red;">Homeopathic Treatment</h2>
+                        <p>
 Male-pattern baldness is extremely common and begins with a receding hairline or bald spot on the top of the head along with thinning of hair at the crown and temples forming a horseshoe shape.
 Female pattern baldness occurs with thinning of hair on the top and crown of the head. It is less common but mostly observed in post-menopausal women.
 Major factors that contribute to hair loss include excessive use of harsh chemicals, and colours, changing hair products frequently, and electric hair appliances like curling irons, hair straighteners and hair dryers.
@@ -129,11 +100,6 @@ Major factors that contribute to hair loss include excessive use of harsh chemic
                 <div class="row">
                 <div class="col-xl-7" style="color: black;">
                         <h2 style="color: red;">How Does Homeopathy Help?</h2>
-                    <p>
-Homeopathy (or Homoeopathy) is a 200-year-old holistic system of alternative medicine that works on the principle of “like cures like”. Homeopathic medicines stimulate your body’s innate healing response to combat the disease.
-Each individual has different characteristics and severity of symptoms of a disease. Homeopathic medicines are selected on the basis of your individualistic characteristics and severity of symptoms (mental, physical and emotional), history of illness, lifestyle and hereditary factors.
-Homeopathy offers customised solutions for each individual that cater specifically to your needs accurately. Homeopathy treats diseases from the root cause in a rapid, gentle and effective mann
-                        </p>
                         <p> Available Homeopathic Treatments:
                         <a href="https://ghoshclinic.com" class="site-btn">
                             1. Acne 2. Allergic 3. Allergies 4. Alopecia Areata 5. Spondylitis 6. Asthma 7. (ADHD) 8. Autism 9. Backache 10. Bone Health 11. Bronchitis 12. Childhood Obesity 13. Gallstones 14. Constipation 15. Dandruff 16. Depression 17. Diabetes 18. Eczema 19. (FPB) 20. Dysfunction 21. Hair Loss 22. Hyperthyroidism 23. Hypothyroidism 24. Infertility 25. (IBS) 26. Leucorrhoea 27. Lichen Planus 28. Male Infertility 29. (MPB) 30. Menopause 31. Migraine 32. Osteoarthritis 33. (PCOS) 34. Weight Gain 35. Piles 36. (PMS) 37. Psoriasis 38. Scalp Psoriasis 39. Rheumatoid Arthritis 40. Tonsillitis 41. Trichotillomania 42. Urinary Incontinence 43. Urinary Tract Infections 44. Upper Respiratory Tract Infection (URTI) 45. Vitiligo 46. Warts
