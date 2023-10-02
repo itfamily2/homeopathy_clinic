@@ -4,7 +4,7 @@
 <head>
     <title>@yield('title')</title>
     <meta charset="UTF-8">
-    <meta name="description" content="IHHRI">
+    <meta name="description" content="GHOSH CLINIC">
     <meta name="keywords" content="homeopathic clinic">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->

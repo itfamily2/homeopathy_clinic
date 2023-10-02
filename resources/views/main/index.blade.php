@@ -39,7 +39,7 @@
                 </div>
                 <div class="hi-content">
                     <h6>Make an appointment</h6>
-                    <p>call or login</p>
+                    <p>Call 8478019973</p>
                 </div>
             </div>
         </div>
