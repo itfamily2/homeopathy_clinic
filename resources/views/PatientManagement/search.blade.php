@@ -20,7 +20,7 @@
                         
                         <select name="hospital" id="hospital" onblur="checkHospitalId()" placeholder="Any Hospital" class="selectpicker">
                         <option value="" style="color: #ccc;">Select Hospital</option>  
-                        <option value="148">GHOSH CLINIC - Wellawatte</option>
+                        <option value="148">GHOSH CLINIC</option>
                         </select>
 
                         <input type="text" name="specialization" class=".front-search input" id="spec" placeholder="Any Specialization" onblur="checkSpecializationId()">

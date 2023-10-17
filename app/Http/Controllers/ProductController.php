@@ -41,7 +41,7 @@ class ProductController extends Controller
                         ->select('address1')
                         ->where('email',$getuser_email)->get();
 
-           $address=(string)$user_address[0]->address1;
+           $address=(string)(isset($user_address[0]->address1) && !empty($user_address[0]->address1)) ? $user_address[0]->address1 :'';
          //  dd(gettype($user_address));
 
         $oldCart=Session::get('cart');

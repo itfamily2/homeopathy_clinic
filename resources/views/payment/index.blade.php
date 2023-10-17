@@ -37,7 +37,7 @@
                         <div class="row">
                             <div class="col-md-3 col-sm-3 col-xs-12">
                                 <div class="logo">
-                                    <h2><a href="#" style = "color:#62a832;">IHHR</a></h2>
+                                    <h2><a href="#" style = "color:#62a832;">GHOSH CLINIC</a></h2>
                                 </div>
                             </div>
                             <div class="col-md-9 col-sm-9 col-xs-12">
@@ -54,7 +54,7 @@
                                 <div class="header-text">
                                         <h1>Cashier Dashboard</h1>
                                         <p>You are able make online payments for your medicines, medical consume items and doctor appoinments.
-                                             As IHHR we have made your operations more simple<br> Thank you!</p>
+                                             As GHOSH CLINIC we have made your operations more simple<br> Thank you!</p>
                                              <br>
                                              <br>
                                              <br>
@@ -69,7 +69,7 @@
                             <div class="col-md-12">
                                 <div class="another-text">
                                         <h3>Add payment details</h3>
-                                        <p>As IHHR, we provide you to pay by card or bank slip <br> on special circumstances you may raise request to refund it </p>
+                                        <p>As GHOSH CLINIC, we provide you to pay by card or bank slip <br> on special circumstances you may raise request to refund it </p>
                                 </div>
                             </div>
                         </div>

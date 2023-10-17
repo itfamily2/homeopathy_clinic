@@ -20,6 +20,7 @@ Route::get('/AdminServ', 'PostsController@serv');
 Route::get('/gallery', 'PostsController@media');
 Route::get('/welcome', 'SweetAlertDemo@index');
 Route::get('/adminchart', 'LaravelGoogleGraphController@index')->middleware('auth_admin');
+Route::view('/contact2', 'PatientManagement.contactus2');
 
 
 // Route::post('/ServiceTest', 'PostsController@store');
@@ -283,3 +284,14 @@ Route::get("/searchpre",'PrescriptionController@search');
 Route::get('patient_pdf','PatientPDFController@index');
 Route::get('/pdfuser','PatientPDFController@pdf_profile');
 Route::get('/patient_pdf/pdf','PatientPDFController@pdf');
+
+Route::get('/linkstorage', function () {
+    Artisan::call('storage:link');
+});
+
+Route::get('/clear-cache', function() {
+    $exitCode = Artisan::call('cache:clear');
+    $exitCode = Artisan::call('config:clear');
+    $exitCode = Artisan::call('config:cache');
+    return 'DONE';
+});

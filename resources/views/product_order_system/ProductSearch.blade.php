@@ -64,9 +64,7 @@
     <form action="search-product" method="POST">
       {{ csrf_field() }}
       <div class="input-group mb-3" style="box-shadow: 1px 2px 8px silver; ">
-        <input type="text" name="productsearchtxt" class="form-control" placeholder="Search hear..."
-          aria-label="Recipient's username" aria-describedby="basic-addon2" style="
-                            width: 75%; " required>
+        <input type="text" name="productsearchtxt" class="form-control" placeholder="Search hear..."  aria-label="Recipient's username" aria-describedby="basic-addon2" style="width: 75%; " required>
         <!--Search catagery-->
 
         <select class="browser-default custom-select" name="category" required>
@@ -115,11 +113,13 @@
       @foreach ($product as $key=> $productrow)
       <a href="viewproduct/{{$productrow->product_id}}" target="_blank">
         <div class="card">
-          <img src="/storage/product_images/{{$productrow->image}}" class="card-img-top" alt="...">
           <div class="card-body" style="color: #302f2f;">
+            <!-- <div class="alert alert-warning" role="alert">
+              <img src="/storage/product_images/{{$productrow->image}}" class="card-img" alt="...">
+            </div> -->
             <h5 class="card-title" id="prodcut-name">{{$productrow->name}}</h5>
             <h3 class="card-title" id="prodcut-price">Rs : <strong> {{$productrow->selling_price}}</strong></h3>
-            <p class="card-text" id="prodcut-description">{{$productrow->description}}</p>
+            <p class="card-text" id="prodcut-description">{{str_limit($productrow->description,40)}}</p>
             <p class="card-text" id="prodcut-brandname">by <strong> {{$productrow->brand}}</strong></p>
 
             @if ($productrow->quantity==0)

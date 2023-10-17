@@ -41,7 +41,7 @@
 
                                                         <p class="no-margin text-uppercase pv">{{ $post->type }}</p>
 
-                                                        <p class="pv">IHHR-Wellawatte </p>
+                                                        <p class="pv">GHOSH CLINIC-Wellawatte </p>
 
                                                     </div>
                                                 </div>

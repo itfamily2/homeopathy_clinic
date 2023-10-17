@@ -32,9 +32,8 @@ class PatientDashboardController extends Controller
         $final=Auth::user();
 
         $research = DB::table('patients')->where('email', $final->email)->first();
-        
+        $research = (isset($research) && !empty($research)) ? $research: [];
         return view('PatientManagement.patientDashboard',compact('research'));
-        //
     }
 
     

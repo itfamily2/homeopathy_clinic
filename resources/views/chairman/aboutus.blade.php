@@ -194,7 +194,7 @@ https://templatemo.com/tm-520-highway
                 <div class="footer-widget">
                     <div class="fw-about">
                         <a href="" class="site-logo-footer"> <img
-                                src="{{ asset('images/main/mainlayout/logo_light_long.png') }}" alt=""></a>
+                                src="{{ asset('images/main/mainlayout/logo_light_long.jpg') }}" alt=""></a>
                         <p>GHOSH CLINIC | Homeopathic & Nutrifit Diet Clinic is a Homeopathic Treatments center. It is a web based
                             application to manage their patient details, make appointments through the online and
                             also to make patients payments through online as well as the clinic <br> 

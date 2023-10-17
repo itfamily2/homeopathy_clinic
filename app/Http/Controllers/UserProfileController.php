@@ -98,11 +98,11 @@ class UserProfileController extends Controller
         $post2=Patient::find($id);
         $post->delete();
         $post2->delete();
-       return redirect('/')->with('success',' You are deleted successfully...Thanks for joining with IHHR');
+       return redirect('/')->with('success',' You are deleted successfully...Thanks for joining with GHOSH CLINIC');
         
         if ($post == 1) {
             $success = true;
-            //return redirect('/welcome')->with('success',' You are deleted successfully...Thanks for joining with IHHR');
+            //return redirect('/welcome')->with('success',' You are deleted successfully...Thanks for joining with GHOSH CLINIC');
             $message = "User deleted successfully";
 
         } else {

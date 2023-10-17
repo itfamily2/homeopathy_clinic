@@ -30,15 +30,15 @@
                     <table>
                         <tr>
                             <td>Address</td>
-                            <td>No 5, Ramakrishna Terrace, Wellawatta, Sri Lanka.</td>
+                            <td>Ghosh Clinic, Berka, Road, Dhunela, Sohna, Haryana 122103</td>
                         </tr>
                         <tr>
                                 <td>Phone</td>
-                            <td>0112-363-131</td>
+                            <td>8478019973</td>
                         </tr>
                         <tr>
                             <td>Email</td>
-                            <td>drshanthahom@gmail.com</td>
+                            <td>clinicghosh@gmail.com</td>
                         </tr>
                        <tr>
                            <td>Follow
@@ -55,8 +55,11 @@
                     </table>
                     
                 </div>
-                <div >
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.575237575844!2d79.8619209804244!3d6.866164392310405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25ba5ae1e0193%3A0x2897d11a2ebbc890!2sInternational%20Homoeopathic%20Hospital%20and%20Research%20Institute%2C!5e0!3m2!1sen!2slk!4v1569907942449!5m2!1sen!2slk" width="350" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>    </div>
+                <div style="overflow:hidden;resize:none;max-width:100%;width:350px;height:250px;">
+                    <div id="google-maps-display" style="height:100%; width:100%;max-width:100%;">
+                        <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Ghosh+Clinic+|+Homeopathy+|+Doctor+|+Clinic,+Road,+Sector+36,+Dhunela,+Sohna,+Haryana,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                    </div>
+                    <a class="embed-map-html" href="https://ghoshclinic.com" id="grab-map-data">Homeopathy Clinic</a><style>#google-maps-display img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style>
                 </div>
 </div>
 
@@ -67,10 +70,10 @@
 
 <script>
         function myFunction() {
-        document.getElementById("name").value = "Vidula Dantanarayana";
-        document.getElementById("email").value = "viduladakshitha@gmail.com";
-        document.getElementById("phone").value = "0779819207";
-        document.getElementById("message").value = "This is a sample test message for demo purposs";
+        document.getElementById("name").value = "Gosh Clinic";
+        document.getElementById("email").value = "cinicghosh@gmail.com";
+        document.getElementById("phone").value = "8478019973";
+        document.getElementById("message").value = "Ghosh Clinic, Berka, Road, Sector 36, Dhunela, Sohna, Haryana 122103";
         }
     </script>
 
