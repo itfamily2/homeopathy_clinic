@@ -13,7 +13,7 @@
             <div class="booking-form">
                     
             <form action="{{ route('register') }}" method="POST" id="booking-form" class="forma"  >
-                    <h2 style="margin-top: -20%;">Register Yourself for International Homeopathy Clinic</h2>
+                    <h2 style="margin-top: -20%;">Register Yourself for GHOSH Homeopathy Clinic</h2>
                     <div class="form-group form-input">
                         {{ csrf_field() }}
                         <input  type="text" id="name" class ="inputa @error('name') is-invalid @enderror"
@@ -51,7 +51,7 @@
 
 
                      <div class="form-group form-input">
-                        <input class ="inputa" type="text" name="Nic" id="Nic" value="" required />
+                        <input class ="inputa" type="text" name="Nic" id="Nic" value="<?php echo strtotime(date('Y-m-d H:i:s')); ?>" required/>
                         <label for="Nic" class="form-label">NIC</label>
                     </div>
                     <div class="form-group form-input">
@@ -71,7 +71,7 @@
 
                     <div class="form-group form-input">
                         <input type="number" class ="inputa" name="phone-number" id="phone-number" value="" required />
-                        <label for="phone-number" class="form-label">Phone Number [eg:- 77xxxxxxx</label>
+                        <label for="phone-number" class="form-label">Phone Number [eg:- 8478019973</label>
                     </div>
 
                     <div class="form-group form-input">

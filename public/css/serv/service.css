@@ -16,6 +16,13 @@ body.white-body {
     width: 50%;
 }
 
+.fa-whatsapp  {
+    color:#fff;
+    background:
+        linear-gradient(#25d366,#25d366) 14% 84%/16% 16% no-repeat,
+        radial-gradient(#25d366 60%,transparent 0);
+}
+
 .bann .owl-dots {
     display: none
 }
