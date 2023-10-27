@@ -97,8 +97,8 @@ ol {
 }
 
 .spad {
-    padding-top: 115px;
-    padding-bottom: 115px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .text-white h1,
@@ -125,11 +125,11 @@ ol {
     border: none;
     font-size: 16px;
     font-weight: 400;
-    color: #fff;
-    min-width: 175px;
-    padding: 18px 15px;
+    color: #eb1616 !important;
+    min-width: 5px;
+    padding: 8px 5px;
     border-radius: 5px;
-    background: #71cd29;
+    background: #ebe2ff !important;
     cursor: pointer;
     text-align: center;
 }
@@ -460,8 +460,8 @@ ol {
 ---------------------*/
 
 .header-section>.container {
-    padding-top: 24px;
-    padding-bottom: 35px;
+    padding-top: 2px;
+    padding-bottom: 3px;
 }
 
 .site-logo {
@@ -657,9 +657,11 @@ ol {
 ---------------------*/
 
 .banner-section {
-    background: #71cd29;
-    padding-top: 57px;
-    padding-bottom: 40px;
+    background: #e4f1da;
+    color: #000;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    text-align: center;
 }
 
 .banner-text h4 {

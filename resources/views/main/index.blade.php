@@ -7,6 +7,22 @@
 @endsection
 
 @section('content')
+
+<!-- Banner section -->
+<section class="banner-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 banner-text text-white">
+                <a href="/registerp" class="site-btn sb-light">Book Appointment</a>
+            </div>
+            <div class="col-lg-5 text-lg-right">
+            Dr. Swati Ghosh, Homeopathy Doctor, Dhunela, Sohna, 8478019973, Near Global Heights, Signature GLobal Park, Ashiȧnȧ Anmol, Central Park Flower Valley, Sohna Road
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Banner section end -->
+
 <div class="header-info">
     <div class="container">
         <div class="row">
@@ -1107,25 +1123,6 @@
     </div>
 </section>
 
-<!-- Banner section -->
-<section class="banner-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7 banner-text text-white">
-                <h4>Register now to make your first appointment.</h4>
-                <!-- <p>*Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus.</p> -->
-                <a href="/registerp" class="site-btn sb-light">Register</a>
-            </div>
-            <div class="col-lg-5 text-lg-right">
-                <!-- <a href="#" class="site-btn sb-light">Read More</a> -->
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Banner section end -->
-
-
-
 <!-- About section -->
 <section class="about-section spad">
     <div class="container">
@@ -1155,7 +1152,7 @@
         <div class="row">
             <div class="col-md-3 col-sm-6 fact">
                 {{-- <i class="flaticon-017-pill"></i> --}}
-                <h2>Exp.3 Years</h2>
+                <h2>Homeopathy Medicine</h2>
                 <p>Homeopathy General Physician</p>
             </div>
             <div class="col-md-3 col-sm-6 fact">
@@ -1250,91 +1247,4 @@
 </section>
 <!-- Services section end -->
 
-<!-- Testimonials section -->
-<section class="testimonials-section spad">
-    <div class="container">
-        <div class="section-title text-center">
-            <h2>Testimonials</h2>
-        </div>
-    </div>
-    <div class="testimonials-warp">
-        <div class="testimonials-slider owl-carousel">
-            @if (count($feedbacks)>0)
-            @foreach ($feedbacks as $feedback)
-            <div class="testimonial-item">
-                <div class="ts-content">
-                    <div class="quta">“</div>
-                    <p>{{ $feedback->message }}</p>
-                    <h6>{{ $feedback->name }}</h6>
-                    <span>Patient</span>
-                </div>
-                {{-- <div class="author-pic set-bg" data-setbg="img/review/1.jpg"></div> --}}
-            </div>
-            @endforeach
-            @else
-            <div class="testimonial-item">
-                <div class="ts-content">
-                    <div class="quta">“</div>
-                    <p>Tempus orci vel consequat. Nullam lorem sem, viverra a rutrum sed, gravida mattis magna.
-                        Suspendisse vitae commodo quam. Quisque a enim et ante vulputate finibus.</p>
-                    <h6>Jessica Brown</h6>
-                    <span>Patient</span>
-                </div>
-                {{-- <div class="author-pic set-bg" data-setbg="img/review/1.jpg"></div> --}}
-            </div>
-            <div class="testimonial-item">
-                <div class="ts-content">
-                    <div class="quta">“</div>
-                    <p>Nullam lorem sem, viverra a rutrum sed, gravida mattis magna. Suspendisse vitae commodo quam.
-                        Quisque a enim et ante vulputate finibus.</p>
-                    <h6>Jessica Brown</h6>
-                    <span>Patient</span>
-                </div>
-                {{-- <div class="author-pic set-bg" data-setbg="img/review/2.jpg"></div> --}}
-            </div>
-            <div class="testimonial-item">
-                <div class="ts-content">
-                    <div class="quta">“</div>
-                    <p>Phasellus vehicula tempus orci vel consequat. Nullam lorem sem, viverra a rutrum sed, gravida
-                        mattis magna. Suspendisse vitae commodo quam. Quisque a enim et ante vulputate finibus nec
-                        laoreet ipsum.</p>
-                    <h6>Jessica Brown</h6>
-                    <span>Patient</span>
-                </div>
-                {{-- <div class="author-pic set-bg" data-setbg="img/review/3.jpg"></div> --}}
-            </div>
-            <div class="testimonial-item">
-                <div class="ts-content">
-                    <div class="quta">“</div>
-                    <p>Tempus orci vel consequat. Nullam lorem sem, viverra a rutrum sed, gravida mattis magna.
-                        Suspendisse vitae commodo quam. Quisque a enim et ante vulputate finibus.</p>
-                    <h6>Jessica Brown</h6>
-                    <span>Patient</span>
-                </div>
-                {{-- <div class="author-pic set-bg" data-setbg="img/review/2.jpg"></div> --}}
-            </div>
-            @endif
-        </div>
-    </div>
-</section>
-<!-- Testimonials section end -->
-
-<!-- Newsletter section -->
-<section class="newsletter-section spad">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7 banner-text text-white">
-                <h4>Subscribe to our newsletter</h4>
-                <p>Be the first to be notified of our offers...</p>
-            </div>
-            <div class="col-lg-5 text-lg-right">
-                <form class="newsletter-form">
-                    <input type="text" placeholder="Your E-mail">
-                    <button class="site-btn sb-dark">Subscribe</button>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Newsletter section end -->
 @endsection

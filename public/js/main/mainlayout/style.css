@@ -72,8 +72,8 @@ ul, ol {
 	background-position: top center;
 }
 .spad {
-	padding-top: 115px;
-	padding-bottom: 115px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 .text-white h1, .text-white h2, .text-white h3, .text-white h4, .text-white h5, .text-white h6, .text-white p, .text-white span, .text-white li, .text-white a {
 	color: #fff;
@@ -85,18 +85,19 @@ ul, ol {
 /* buttons */
 
 .site-btn {
-	display: inline-block;
-	border: none;
-	font-size: 16px;
-	font-weight: 400;
-	color: #fff;
-	min-width: 175px;
-	padding: 18px 15px;
-	border-radius: 5px;
-	background: #71cd29;
-	cursor: pointer;
-	text-align: center;
+    display: inline-block;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #eb1616 !important;
+    min-width: 5px;
+    padding: 8px 5px;
+    border-radius: 5px;
+    background: #ebe2ff !important;
+    cursor: pointer;
+    text-align: center;
 }
+
 .site-btn:hover {
 	color: #fff;
 }
@@ -372,8 +373,8 @@ ul, ol {
 ---------------------*/
 
 .header-section>.container {
-	padding-top: 24px;
-	padding-bottom: 35px;
+	padding-top: 2px;
+	padding-bottom: 3px;
 }
 .site-logo {
 	display: inline-block;
@@ -510,11 +511,12 @@ ul, ol {
 /*------------------
   Banner
 ---------------------*/
-
 .banner-section {
-	background: #71cd29;
-	padding-top: 57px;
-	padding-bottom: 40px;
+    background: #e4f1da;
+    color: #000;
+    padding-top: 5px;
+    padding-bottom: 4px;
+	text-align: center;
 }
 .banner-text h4 {
 	font-weight: 700;
