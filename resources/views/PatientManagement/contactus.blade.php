@@ -24,7 +24,7 @@
   <div class="col-md-4 col-sm-12 col-xs-12">
 <div >
     <div class="footer-widget" >
-        <div class="fw-timetable" style="left: 20%">
+        <div class="fw-timetable" style="left: 0%">
         <div class="fw-title">Location</div>
         <div class="timetable-content">
             <table>

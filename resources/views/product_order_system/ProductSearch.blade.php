@@ -103,7 +103,7 @@
 
   <!--product list start-->
   <div class="row ">
-    <div class="card-columns" style="padding: 60px;">
+    <div class="card-columns" style="padding: 1px;">
       @if (count($product)==0)
       <div style="width: 500%;margin-left: 50%;">
         <img src="assets/image/nothigtoshow.png" class="img-fluid" alt="try again..using different words"
