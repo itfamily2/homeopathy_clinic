@@ -9,14 +9,28 @@
 @section('content')
 
 <!-- Banner section -->
+<section class="services-area pt-0 pb-0">
+    <div class="container">
+        <div class="row">
+            
+        </div>
+    </div>
+</section>
+<!-- Banner section end -->
+
+<!-- Banner section -->
 <section class="banner-section">
     <div class="container">
         <div class="row">
-            <div class="col-lg-7 banner-text text-white">
-                <a href="/registerp" class="site-btn sb-light">Book Appointment</a>
-            </div>
-            <div class="col-lg-5 text-lg-right">
-            Dr. Swati Ghosh, Homeopathy Doctor, Dhunela, Sohna, 8478019973, Near Global Heights, Signature GLobal Park, Ashiȧnȧ Anmol, Central Park Flower Valley, Sohna Road
+            <div class="col-lg-12 text-lg">
+                <h2>Get in Touch</h2>
+                <div class="col-lg-12 text-lg">
+                    <div class="red p-1" style="font-size:10px;color:#007bff !important;"><a class=" btn-link" href="https://maps.app.goo.gl/oHQSbFPvy1FMaTfP6"><i class="fa fa-map-marker" aria-hidden="true"></i> Ghosh Homeopathy Clinic, Berka Road, Dhunela, Sohna, 8478019973 </a></div>
+                </div>
+                <p>
+                    Dr. Swati Ghosh, Homeopathy Doctor, Dhunela, Sohna, 8478019973, Near Global Heights, Signature GLobal Park, Ashiȧnȧ Anmol, Central Park Flower Valley, Sohna Road
+                    <a href="/registerp" class="btn btn-link sb-light">Book Appointment</a>
+                </p>
             </div>
         </div>
     </div>
@@ -65,6 +79,21 @@
         </div>
     </div>
 </div>
+
+<!-- Banner section -->
+<section class="services-area pt-100 pb-70">
+    <div class="container">
+        <div class="section-title">
+            <h1>Diseases Treated By Homeopathy</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 banner-text text-black">
+            <p>▲ Orthopaedic / Arthroscopy ▲ Hair Fall Treatment ▲ Constipation ▲ Blood Pressure Test ▲ Medication ▲ Joint Pain Management ▲ Infertility ▲ Skin Treatment ▲ Piles Treatment (Non Surgical) ▲ Urinary Tract Infection ▲ Diabetes ▲ Vertigo Treatment ▲ PCOS/PCOD Treatment ▲ Anxiety ▲ Disorder Treatment ▲ Child Psychologist ▲ Weight Loss/Gain ▲ Infertility Treatment ▲ OPD Services PCOD Gynae Problems ▲ Metabolic Diseases ▲ PCOD & Breast Problems ▲ Urine ▲ Stone ▲ Pediatric ▲ PCOS General Paediatrics ▲ Glaucoma ▲ Personal and Professional Growth ▲ Hair Fall ▲ Acne ▲ Allergy ▲Weight Loss-Gain ▲ Anxiety ▲ Depression ▲ Anger Problems ▲ Weight Loss Treatment ▲ Thyroid ▲ Kidney Stones Treatment ▲ Consultation ▲ General Gynecology ▲ Video Counselling ▲ Migraine ▲ PCOS/PCOD & women related disorders ▲ Arthritis Treatment ▲ Obstetrics & Gynaecology ▲ Pediatrics Orthopaedics ▲ Tonsillitis Treatment ▲ Health Screening ▲ General Medical Consultation ▲ Gynaecological Care & Counselling ▲ Pregnancy Menstrual Disorders Management ▲ Dermatology ▲Preventive Medicine ▲ Acidity ▲ Skin Disease Treatment ▲ Weight Loss ▲ Sexual Problems ▲ Facial Osteopathy ▲ Spine Problems ▲ Joint Pain</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Banner section end -->
 
 <section class="services-area pt-100 pb-70">
     <div class="container">
@@ -1137,8 +1166,6 @@
                     Homeopathic medicines are made from natural substances, which is considered a safer form of medical treatment. Natural substances’ healing properties are used to cure and treat various medical conditions, whether acute or chronic, without any side effects.
                     With the passage of time, homeopathy has helped people find relief from their diseases where other treatments failed.
                 </p>
-
-                <p>▲ Orthopaedic / Arthroscopy ▲ Hair Fall Treatment ▲ Constipation ▲ Blood Pressure Test ▲ Medication ▲ Joint Pain Management ▲ Infertility ▲ Skin Treatment ▲ Piles Treatment (Non Surgical) ▲ Urinary Tract Infection ▲ Diabetes ▲ Vertigo Treatment ▲ PCOS/PCOD Treatment ▲ Anxiety ▲ Disorder Treatment ▲ Child Psychologist ▲ Weight Loss/Gain ▲ Infertility Treatment ▲ OPD Services PCOD Gynae Problems ▲ Metabolic Diseases ▲ PCOD & Breast Problems ▲ Urine ▲ Stone ▲ Pediatric ▲ PCOS General Paediatrics ▲ Glaucoma ▲ Personal and Professional Growth ▲ Hair Fall ▲ Acne ▲ Allergy ▲Weight Loss-Gain ▲ Anxiety ▲ Depression ▲ Anger Problems ▲ Weight Loss Treatment ▲ Thyroid ▲ Kidney Stones Treatment ▲ Consultation ▲ General Gynecology ▲ Video Counselling ▲ Migraine ▲ PCOS/PCOD & women related disorders ▲ Arthritis Treatment ▲ Obstetrics & Gynaecology ▲ Pediatrics Orthopaedics ▲ Tonsillitis Treatment ▲ Health Screening ▲ General Medical Consultation ▲ Gynaecological Care & Counselling ▲ Pregnancy Menstrual Disorders Management ▲ Dermatology ▲Preventive Medicine ▲ Acidity ▲ Skin Disease Treatment ▲ Weight Loss ▲ Sexual Problems ▲ Facial Osteopathy ▲ Spine Problems ▲ Joint Pain</p>
             </div>
         </div>
     </div>
