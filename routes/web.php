@@ -61,10 +61,11 @@ Route::get('/Services', 'ServicesController@index')->name('Services');
 Auth::routes();
 
 use \App\Feedback;
-Route::get('/', function(){
+Route::get('/', 'HomeController@index', function(){
     $feedbacks = Feedback::all();
     return view('main.index', compact('feedbacks'));
 });
+
 Route::get('/about', 'NoticesController@index');
 Route::get('/ServiceTest', 'PostsController@index');
 Route::get('/gallery', 'ArticlesController@index');
