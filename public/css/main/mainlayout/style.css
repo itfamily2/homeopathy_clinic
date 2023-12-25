@@ -10,6 +10,49 @@
 /* Template default CSS
 /*----------------------------------------*/
 
+.horizontal-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.horizontal-list li {
+    margin-right: 10px; /* Adjust as needed for spacing */
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-body ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card-body ul li::before {
+    content: "\2022"; /* Bullet point character */
+    color: #ff6600; /* Bullet point color */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
 html,
 body {
     height: 100%;
@@ -747,7 +790,7 @@ ol {
 }
 
 .service {
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
 .service:hover .service-icon {
