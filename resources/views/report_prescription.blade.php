@@ -2,7 +2,7 @@
 
 @extends('backend.lay')
 
-@section('title', 'Record Manager')
+@section('title', 'Dr. Swati Ghosh: Healing through Homeopathy in Dhunela, Sohna | Ghosh Clinic - Call 8478019973')
 
 
 

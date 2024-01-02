@@ -4,8 +4,8 @@
 <head>
     <title>@yield('title')</title>
     <meta charset="UTF-8">
-    <meta name="description" content="GHOSH CLINIC">
-    <meta name="keywords" content="homeopathic clinic | GHOSH CLINIC | Dhunela | Sohna | 8478019973">
+    <meta name="description" content="Dr. Swati Ghosh offers healing through homeopathy at Dhunela, Sohna. Discover holistic care with a trusted homeopathy doctor near Sohna specializing in natural remedies for your well-being. Call 8478019973 for enquiry to Ghosh CLinic">
+    <meta name="keywords" content="Orthopaedic / Arthroscopy -- Hair Fall Treatment -- Constipation -- High blood pressure Medication -- Joint Pain Management -- Infertility -- Skin Treatment -- Piles Treatment (Non Surgical) -- Urinary Tract Infection -- Diabetes -- Vertigo Treatment -- Anxiety Disorder Treatment -- Child Psychology -- Weight Loss/Gain -- Infertility Treatment PCOD Gynae Problems -- Metabolic Diseases -- Breast tumor --Renal Stone -- Pediatric -- Glaucoma -- Personal and Professional Growth -- Hair Fall -- Acne -- Allergy -- Depression & Anger Problems -- Thyroid disorder -- General Gynecology -- Mouth -- Migraine -- Arthritis Treatment & Orthopaedics -- Tonsillitis Treatment -- Health Screening -- General Medical Consultation -- Menstrual Disorders Management -- Dermatology -- Preventive Medicine -- Acidity -- Allegic rhinitis & sinusitis -- Sexual Problems -- Warts -- Spine Problems -- Joint Pain">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="shortcut icon" />

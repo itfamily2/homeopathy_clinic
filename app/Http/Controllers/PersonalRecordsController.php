@@ -8,6 +8,11 @@ use Illuminate\Http\Request;
 
 class PersonalRecordsController extends Controller
 {
+    public function createPer()
+    {
+        return view('create_per_view');
+    }
+    
     public function index(Request $request){
         $personal_records = PersonalRecord::all();
         return view('home_per',['personal_records'=>$personal_records]);

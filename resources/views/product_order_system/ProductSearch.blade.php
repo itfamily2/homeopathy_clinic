@@ -1,4 +1,4 @@
-@extends('main.layout.mainlayout');
+@extends('main.layout.mainlayout')
 
 @section('styles')
 <style type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css "></style>

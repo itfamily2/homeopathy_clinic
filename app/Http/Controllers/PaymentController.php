@@ -21,6 +21,31 @@ class PaymentController extends Controller
         $this->middleware('auth_cashier');
     }
     
+    public function paymentHome()
+    {
+        return view('payment.paymentHome');
+    }
+    
+    public function paymentCard()
+    {
+        return view('payment.paymentCard');
+    } 
+    
+    public function paymentSlip()
+    {
+        return view('payment.paymentSlip');
+    }
+
+    public function paymentRefund()
+    {
+        return view('payment.paymentRefund');
+    } 
+    
+    public function paymentSearch()
+    {
+        return view('payment.paymentSearch');
+    }
+    
     /**
      * Display a listing of the resource.
      *

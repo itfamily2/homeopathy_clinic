@@ -61,9 +61,13 @@ Route::get('/Services', 'ServicesController@index')->name('Services');
 Auth::routes();
 
 use \App\Feedback;
-Route::get('/', 'HomeController@index', function(){
-    $feedbacks = Feedback::all();
-    return view('main.index', compact('feedbacks'));
+// Route::get('/', 'HomeController@index', function(){
+//     $feedbacks = Feedback::all();
+//     return view('main.index', compact('feedbacks'));
+// });
+
+Route::group(['middleware'=>'HtmlMinifier'], function(){ 
+    Route::get('/', 'HomeController@index');
 });
 
 Route::get('/about', 'NoticesController@index');
@@ -99,25 +103,16 @@ Route::resource('patient', 'PatientDashboardController');
 Route::resource('search', 'SearchController');
 
 //payment routes
-Route::get('/paymentHome', function () {
-    return view('payment.paymentHome');
-});
+Route::get('/paymentHome', 'PaymentController@paymentHome');
 
-Route::get('/paymentCard', function () {
-    return view('payment.paymentCard');
-});
+Route::get('/paymentCard', 'PaymentController@paymentCard');
 
-Route::get('/paymentSlip', function () {
-    return view('payment.paymentSlip');
-});
+Route::get('/paymentSlip', 'PaymentController@paymentSlip');
 
-Route::get('/paymentRefund', function () {
-    return view('payment.paymentRefund');
-});
+Route::get('/paymentSearch', 'PaymentController@paymentSearch');
 
-Route::get('/paymentSearch', function () {
-    return view('payment.paymentSearch');
-});
+Route::get('/paymentRefund', 'PaymentController@paymentRefund');
+
 // Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/detail', 'CardController@show');
 Route::get('/search1', 'PaymentController@search');
@@ -143,11 +138,7 @@ Route::delete('/userdelete/{id}', 'UserProfileController@destroy');
 
 
 //order managemet system
-
-Route::get('/shoppingcart', function () {
-    return view('product_order_system.ShoppingCart');
-});
-
+Route::get('/shoppingcart', 'ShoppingCartController@showShoppingCart');
 
 Route::get('/search-product', 'ProductSearchController@index');
 Route::get('/viewproduct/{id}', 'ProductSearchController@show');
@@ -215,9 +206,7 @@ Route::get('/home_per', function(){
 
 Route::get('/home_per', 'PersonalRecordsController@index');
 
-Route::get('/create_per', function(){
-    return view('create_per');
-});
+Route::get("/create_per",'PersonalRecordsController@create_per');
 
 Route::post('/insert', 'PersonalRecordsController@add0');
 
@@ -235,14 +224,8 @@ Route::get("/searchrecords",'PersonalRecordsController@search');
 
 
 //2.Treatment Record
-//Route::get('/home_treat', 'TreatmentController@home1');
-Route::get('/home_treat', function(){
-    return view('home_treat');
-});
 Route::get('/home_treat', 'TreatmentController@index1');
-Route::get('/create_treat', function(){
-    return view('create_treat');
-});
+Route::get('/create_treat', 'TreatmentController@index1');
 
 Route::post('/insert_treatment', 'TreatmentController@add1');
 
@@ -263,10 +246,7 @@ Route::get('/home_prescription', function(){
 });
 
 Route::get('/home_prescription', 'PrescriptionController@home2');
-
-Route::get('/create_prescription', function(){
-    return view('create_prescription');
-});
+Route::get('/create_prescription', 'PrescriptionController@createPrescription');
 
 Route::post('/insert_prescription', 'PrescriptionController@add2');
 
@@ -286,13 +266,6 @@ Route::get('patient_pdf','PatientPDFController@index');
 Route::get('/pdfuser','PatientPDFController@pdf_profile');
 Route::get('/patient_pdf/pdf','PatientPDFController@pdf');
 
-Route::get('/linkstorage', function () {
-    Artisan::call('storage:link');
-});
+Route::get('/linkstorage', 'StorageLinkController@createLink');
 
-Route::get('/clear-cache', function() {
-    $exitCode = Artisan::call('cache:clear');
-    $exitCode = Artisan::call('config:clear');
-    $exitCode = Artisan::call('config:cache');
-    return 'DONE';
-});
+Route::get('/clear-cache', 'CacheController@clearCache');

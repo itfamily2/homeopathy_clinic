@@ -661,6 +661,101 @@ class HomeController extends Controller
             ]
         ];
 
+        $homeopathyTreatments = [
+            'Auto-Immune Diseases' => [
+                'Psoriasis',
+                'Lichen Planus',
+                'Herpes Zoster',
+                'Thyroid',
+                'Goitre'
+            ],
+            'Respiratory Disorders' => [
+                'Chronic Asthma',
+                'Breathing Difficulties',
+                'Dyspnea',
+                'Sinusitis',
+                'Rhinitis',
+                'Adenoids',
+                'Tonsilitis',
+                'Post Nasal Drip'
+            ],
+            'Children Problems' => [
+                'Poor Growth Development',
+                'Short Height Issues',
+                'Delayed Speech',
+                'Bedwetting Enuresis',
+                'ADHD',
+                'Autism',
+                'Chronic Constipation',
+                'Loss of Appetite'
+            ],
+            'Skin Problems' => [
+                'Allergy',
+                'Hives',
+                'Eczema Dermatitis',
+                'Ringworm',
+                'Urticaria',
+                'Corn',
+                'Viral Warts',
+                'Mollescum Contagiosum',
+                'Vitiligo',
+                'Herpes Zoster'
+            ],
+            'Digestive/Liver Disorders' => [
+                'Constipation',
+                'Piles',
+                'IBS',
+                'GERD Acidity',
+                'Gastritis',
+                'Kidney Stones',
+                'Gall Bladder Stones'
+            ],
+            'Joint and Neurological Disorders' => [
+                'Joint Pain',
+                'Arthritis',
+                'Cervical',
+                'Knee Pain',
+                'Backache',
+                'Slip Disc',
+                'Sciatica',
+                'Neurological Disorders',
+                'Tremor',
+                'Parkinson\'s Disease'
+            ],
+            'Urinary Disorders' => [
+                'UTI',
+                'Overactive Bladder',
+                'Enlarged Prostate'
+            ],
+            'Kidney Disorders' => [
+                'Nephrotic Syndrome',
+                'Kidney Stones',
+                'UTI',
+                'Polycystic Kidney Disease',
+                'Kidney Cysts'
+            ],
+            'Carcinoma' => [
+                'Breast Cancer',
+                'Lumps',
+                'Prostate',
+                'Basal Cell CA',
+                'Colon CA',
+                'Lung CA',
+                'Leukemia',
+                'Lymphoma'
+            ],
+            'Women\'s Health Issues' => [
+                'Irregular Menses PCOS',
+                'Uterine Fibroid',
+                'Endometriosis',
+                'Having Trouble Conceiving',
+                'PCOD',
+                'Pre-mature Eggs',
+                'Poor Insulin Resistance',
+                'High BP and many more'
+            ]
+        ];
+
         $testimonials = [
             [
                 'image' => 'img/home-icons/migrane.png',
@@ -826,7 +921,11 @@ class HomeController extends Controller
             ],
         ];
 
-        return view('main.index')->with(compact('services', 'testimonials'));
+        return View::make('main.index', [
+            'services' => $services,
+            'testimonials' => $testimonials,
+            'homeopathyTreatments' => $homeopathyTreatments,
+        ]);
     }
 
 }

@@ -6,6 +6,11 @@ use Illuminate\Http\Request;
 
 class ShoppingCartController extends Controller
 {
+    public function showShoppingCart()
+    {
+        return view('product_order_system.ShoppingCart');
+    }
+    
     /**
      * Display a listing of the resource.
      *

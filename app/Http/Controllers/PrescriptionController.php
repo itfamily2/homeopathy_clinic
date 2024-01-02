@@ -8,6 +8,11 @@ use Illuminate\Http\Request;
 
 class PrescriptionController extends Controller
 {
+    public function createPrescription()
+    {
+        return view('create_prescription');
+    }
+
     public function home2(Request $request){
         $prescriptions = Prescription::all();
         return view('home_prescription',['prescriptions'=>$prescriptions]);

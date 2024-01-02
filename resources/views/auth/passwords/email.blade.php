@@ -46,7 +46,7 @@
 </div>
 </div>
 @endsection --}}
-@extends('main.layout.mainlayout');
+@extends('main.layout.mainlayout')
 
 {{-- all your css styles go in here --}}
 @section('styles')

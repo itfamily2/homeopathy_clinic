@@ -11,8 +11,8 @@
 body {
     font-size: 16px;
     font-family: Oxygen, sans-serif;
-    color: #666;
-    background-color: #f9f9f9
+    color: #13316e;
+    background-color: #fff
 }
 
 body.white-body {
@@ -502,7 +502,7 @@ textarea.form-control {
 
 .section-title {
     max-width: 750px;
-    margin: -5px auto 30px;
+    margin: -5px auto 10px;
     text-align: center;
     position: relative
 }

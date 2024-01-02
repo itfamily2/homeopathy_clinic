@@ -10,6 +10,68 @@
 /* Template default CSS
 /*----------------------------------------*/
 
+
+.horizontal-list li {
+    margin-right: auto; /* Adjust as needed for spacing */
+}
+
+/* Mobile styles - for screens smaller than 768px */
+@media (max-width: 767px) {
+    /* Styles specific to mobile */
+    .horizontal-list {
+        display: table-header-group;
+        list-style-type: none;
+        padding: 0;
+    }
+  
+    /* Other mobile-specific styles */
+  }
+  
+  /* Desktop styles - for screens larger than 768px */
+  @media (min-width: 768px) {
+    /* Styles specific to desktop */
+    .horizontal-list {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+    }
+  
+    /* Other desktop-specific styles */
+  }
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* padding: 15px; */
+    /* background-color: #f9f9f9; */
+    margin-bottom: 20px;
+}
+
+.card-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-body ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card-body ul li::before {
+    content: "\2022"; /* Bullet point character */
+    color: #ff6600; /* Bullet point color */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
 html,
 body {
     height: 100%;
@@ -55,7 +117,7 @@ h6 {
 
 p {
     font-size: 14px;
-    color: #696969;
+    color: #13316e;
     line-height: 2;
 }
 
@@ -712,9 +774,18 @@ ol {
     background: #eff2f4;
 }
 
+.section-title h4 {
+    color: #006ac9;
+}
+
+.approach {
+    background-color: #fff;
+    border-radius: 8px;
+  }
+
 .service-icon {
-    width: 98px;
-    height: 98px;
+    width: 20;
+    height: 20px;
     background: #fff;
     font-size: 48px;
     display: -webkit-inline-box;

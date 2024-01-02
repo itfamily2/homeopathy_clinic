@@ -1,6 +1,6 @@
 @extends('backend.lay')
 
-@section('title', 'Record Management')
+@section('title', 'Dr. Swati Ghosh: Healing through Homeopathy in Dhunela, Sohna | Ghosh Clinic - Call 8478019973')
   
 <link rel="stylesheet" href={{ url('css/product/vendors/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css') }}>
 

@@ -1,5 +1,5 @@
 
-@extends('main.layout.mainlayout');
+@extends('main.layout.mainlayout')
 
 @section('title', 'User Priscription');
 

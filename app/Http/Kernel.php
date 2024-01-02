@@ -65,6 +65,7 @@ class Kernel extends HttpKernel
         'auth_admin' => \App\Http\Middleware\CheckIfAdminLogged::class,
         'auth_inventory' => \App\Http\Middleware\CheckIfInventoryManagerLogged::class,
         'auth_cashier' => \App\Http\Middleware\CheckIfCashierLogged::class,
+        'HtmlMinifier' => \App\Http\Middleware\HtmlMinifier::class
     ];
 
     /**

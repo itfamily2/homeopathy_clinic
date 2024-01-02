@@ -1,6 +1,7 @@
-@extends('main.layout.mainlayout');
+@extends('main.layout.mainlayout')
 
-@section('title', 'Welcome')
+@section('title', 'Welcome to Ghosh Clinic: Healing through Homeopathy at Dhunela, Sohna')
+@section('description', 'Dr. Swati Ghosh offers healing through homeopathy at Dhunela, Sohna. Discover holistic care with a trusted homeopathy doctor near Sohna specializing in natural remedies for your well-being. <b></b>Call 8478019973</b> for enquiry to Ghosh CLinic')
 
 @section('styles')
 <link href="{{ asset('css/serv/service.css') }}" rel="stylesheet">
@@ -47,12 +48,14 @@
 <!-- Banner section end -->
 
 <!-- Banner section -->
-<section class="banner-section">
+<section class="services-area pt-100 pb-70">
     <div class="container">
+        <div class="section-title text-center">
+            <h4>Connect with Us || हमसे संपर्क करें</h4>
+        </div>
         <div class="row">
             <div class="col-lg-12 text-lg">
-                <h2>Get in Touch</h2>
-                <div class="col-lg-12 text-lg">
+                <div class="col-lg-12 text-lg text-center">
                     <div class="red p-1" style="font-size:10px;color:#007bff !important;"><a class=" btn-link" href="https://maps.app.goo.gl/oHQSbFPvy1FMaTfP6"><i class="fa fa-map-marker" aria-hidden="true"></i> Ghosh Homeopathy Clinic, Berka Road, Dhunela, Sohna, 8478019973 </a></div>
                 </div>
                 <p>
@@ -61,12 +64,6 @@
                 </p>
             </div>
         </div>
-    </div>
-</section>
-<!-- Banner section end -->
-
-<div class="header-info">
-    <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-6 hi-item">
                 <div class="hs-icon">
@@ -74,7 +71,7 @@
                 </div>
                 <div class="hi-content">
                     <h6><a href="https://maps.app.goo.gl/oHQSbFPvy1FMaTfP6">Ghosh Clinic, Berka Road</a></h6>
-                    <p>Dhunela, Sohna, Haryana 122103</p>
+                    <p>Dhunela, Sohna, HR 122103</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 hi-item">
@@ -101,18 +98,19 @@
                 </div>
                 <div class="hi-content">
                     <h6>Make an appointment</h6>
-                    <p>Call 8478019973</p>
+                    <p><b>Call 8478019973</b></p>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
+<!-- Banner section end -->
 
 <!-- Banner section -->
 <section class="services-area pt-100 pb-70">
     <div class="container">
-        <div class="section-title">
-            <h2>Diseases Treated By Homeopathy</h2>
+        <div class="section-title text-center">
+            <h4>Medical Conditions Remedied Through Homeopathic Medicine <br> होम्योपैथिक चिकित्सा द्वारा इलाज की जाने वाली चिकित्साएं</h4>
         </div>
         <div class="row">
             <div class="col-lg-12 banner-text text-black">
@@ -125,8 +123,8 @@
 
 <section class="services-area pt-100 pb-70">
     <div class="container">
-        <div class="section-title">
-            <h2>Homeopathic Treatment</h2>
+        <div class="section-title text-center">
+            <h4>Services in Homeopathic Treatments Offered <br> होम्योपैथिक उपचार में प्रदान की जाने वाली सेवाएं</h4>
         </div>
         <div id="services-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -175,87 +173,129 @@
     </div>
 </section>
 
-<!-- About section -->
-<section class="about-section spad">
+<section class="services-area pt-100 pb-70">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-5">
-                <img src="{{ asset('images/main/index/child.jpg') }}" alt="">
-            </div>
-            <div class="col-lg-7 about-text">
-                <h2>We Care About Your Health</h2>
-                <p>
-                    Homeopathy is a 200-year-old system of alternative holistic medicine. It is the preferred form of medical treatment for approximately 100 million individuals in India.
-                    Homeopathic medicines are made from natural substances, which is considered a safer form of medical treatment. Natural substances’ healing properties are used to cure and treat various medical conditions, whether acute or chronic, without any side effects.
-                    With the passage of time, homeopathy has helped people find relief from their diseases where other treatments failed.
-                </p>
-            </div>
+        <div class="section-title text-center">
+            <h4>About Dr. Swati Ghosh: Bringing Healing through Homeopathy <br> डॉ. स्वाति घोष के बारे में: होम्योपैथी के माध्यम से चिकित्सा लाना।</h4>
+        </div>
+        <div class="content">
+            <p>Dr. Swati Ghosh, a dedicated practitioner at Ghosh Clinic, brings a wealth of expertise and compassion to her practice in homeopathy. With a commitment to holistic healing, she endeavors to empower her patients on their journey toward wellness.</p>
+
+            <p>Dr. Ghosh's passion for homeopathy stems from a profound belief in the body's innate ability to heal itself. Her approach revolves around understanding each individual's unique constitution, addressing not only the symptoms but also delving into the root cause of ailments.</p>
+
+            <p>Having honed her skills through extensive education and practical experience, Dr. Swati Ghosh has become a trusted name in the field of homeopathic medicine. Her patients in Dunela, Sohna, and the surrounding areas have benefited from her personalized treatment plans and compassionate care.</p>
+
+            <p>At Ghosh Clinic, Dr. Ghosh emphasizes a patient-centric approach, fostering a warm and welcoming environment where individuals feel heard and understood. Her dedication to continuous learning and staying abreast of advancements in homeopathy ensures that patients receive the most effective and tailored treatment options.</p>
+
+            <p>Dr. Swati Ghosh's practice extends beyond merely alleviating symptoms; she aims to facilitate lasting well-being and a renewed sense of vitality in every patient she treats.</p>
+
+            <p>Whether it's chronic conditions, acute illnesses, or seeking overall wellness, Dr. Ghosh's expertise in homeopathy offers a holistic path to health and vitality.</p>
+
+            <p>Contact Ghosh Clinic today to embark on a journey toward holistic healing with Dr. Swati Ghosh, a compassionate and experienced homeopathy practitioner serving the Dunela and Sohna communities.</p>
         </div>
     </div>
 </section>
-<!-- About section end -->
 
-<!-- Services section -->
-<section class="services-section spad">
+<section class="services-area pt-100 pb-70">
     <div class="container">
         <div class="section-title text-center">
-            <h2>Our Services</h2>
+            <h4>Diseases are Entirely Treatable with Homeopathy <br> रोग पूरी तरह से होम्योपैथी से ठीक हो सकते हैं।</h4>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                @foreach($homeopathyTreatments as $key => $category)
+                    <li data-target="#carouselExampleIndicators" data-slide-to="{{ $loop->index }}" class="{{ $loop->first ? 'active' : '' }}"></li>
+                @endforeach
+            </ol>
+            <div class="carousel-inner">
+                @foreach($homeopathyTreatments as $key => $category)
+                    <div class="carousel-item {{ $loop->first ? 'active' : '' }}">
+                        <div class="card">
+                            <div class="card-header">
+                                {{ $key }}
+                            </div>
+                            <div class="card-body">
+                                <ul class="horizontal-list">
+                                    @foreach($category as $ailment)
+                                        <li>{{ $ailment }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Services section -->
+<section class="services-area">
+    <div class="container">
+        <div class="section-title text-center">
+            <h4>Approaches in Homeopathy <br> होम्योपैथी में दृष्टिकोण।</h4>
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-6 service">
                 <div class="service-icon">
                     <img src="{{ asset('images/main/index/svg-icons/001-medicine.svg') }}" style="width: 50px;" alt="">
                 </div>
-                <div class="service-content">
+                <div class="service-content approach">
                     <h4>Auto-isopathy</h4>
-                    <p>Treatment with remedies made from the particular patients’ own body substances.</p>
+                    <p>Involves using substances derived from the patient's own body, such as bodily discharges, for treatment.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 service">
                 <div class="service-icon">
                     <img src="{{ asset('images/main/index/svg-icons/002-first-aid-kit.svg') }}" style="width: 50px;" alt="">
                 </div>
-                <div class="service-content">
+                <div class="service-content approach">
                     <h4>Classical Homeopathy</h4>
-                    <p>The individual is considered as a whole and symptoms from the body, mind, and spirit are
-                        considered when choosing a homeopathic remedy.</p>
+                    <p>This is the traditional form of homeopathy, where a single remedy is prescribed based on the patient's overall symptoms and constitution.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 service">
                 <div class="service-icon">
                     <img src="{{ asset('images/main/index/svg-icons/003-stethoscope.svg') }}" style="width: 50px;" alt="">
                 </div>
-                <div class="service-content">
+                <div class="service-content approach">
                     <h4>Clinical Homeopathy</h4>
-                    <p>Non-individualised treatment based mainly on guiding symptoms; (e.g. arnica for bruises).</p>
+                    <p>Refers to the application of homeopathy in a clinical or medical setting, often integrating homeopathic remedies with medical practices.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 service">
                 <div class="service-icon">
                     <img src="{{ asset('images/main/index/svg-icons/004-care.svg') }}" style="width: 50px;" alt="">
                 </div>
-                <div class="service-content">
+                <div class="service-content approach">
                     <h4>Complex homeopathy</h4>
-                    <p>Uses remedies that are mixtures of ingredients or that prescribes several remedies taken in
-                        combination.</p>
+                    <p>Involves using combinations of homeopathic remedies to address multiple symptoms or conditions simultaneously.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 service">
                 <div class="service-icon">
                     <img src="{{ asset('images/main/index/svg-icons/005-doctor.svg') }}" style="width: 50px;" alt="">
                 </div>
-                <div class="service-content">
+                <div class="service-content approach">
                     <h4>Homotoxicology</h4>
-                    <p>Homotoxicology, a therapeutic branch of homeopathy, focuses on deep cleansing of the body tissues.</p>
+                    <p>Focuses on removing toxins from the body using homeopathic remedies, addressing the concept of "homotoxins" as the cause of diseases.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 service">
                 <div class="service-icon">
                     <img src="{{ asset('images/main/index/svg-icons/007-hospital.svg') }}" style="width: 50px;" alt="">
                 </div>
-                <div class="service-content">
+                <div class="service-content approach">
                     <h4>Isopathy</h4>
-                    <p>Use of remedies made from the causative agent, e.g. a specific allergen for an allergy.</p>
+                    <p> Involves using remedies derived from causative agents of a disease to treat that same disease, aiming to stimulate the body's immune response.</p>
                 </div>
             </div>
         </div>
