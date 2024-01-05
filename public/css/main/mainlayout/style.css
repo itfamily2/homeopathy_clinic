@@ -91,10 +91,6 @@ h6 {
     font-weight: 500;
 }
 
-h1 {
-    font-size: 70px;
-}
-
 h2 {
     font-size: 36px;
 }
@@ -149,7 +145,7 @@ ol {
 -----------------------*/
 
 .section-title {
-    margin-bottom: 100px;
+    margin-bottom: 25px;
 }
 
 .set-bg {
@@ -806,7 +802,7 @@ ol {
 }
 
 .service-content {
-    padding-left: 125px;
+    padding-left: 1px;
 }
 
 .service-content h4 {

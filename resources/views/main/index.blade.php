@@ -4,6 +4,37 @@
 @section('description', 'Dr. Swati Ghosh offers healing through homeopathy at Dhunela, Sohna. Discover holistic care with a trusted homeopathy doctor near Sohna specializing in natural remedies for your well-being. <b></b>Call 8478019973</b> for enquiry to Ghosh CLinic')
 
 @section('styles')
+<style>
+    .single-services .services-icon {
+    background-color: #fdeee7;
+    padding: 20px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+}
+.single-services {
+    text-align: center;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05);
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05);
+    padding: 1px;
+    -webkit-transition: all ease .5s;
+    transition: all ease .5s;
+    margin-bottom: 5px;
+}
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+</style>
 @endsection
 
 @section('content')
@@ -39,9 +70,6 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </div>
-    <div class="services-shape">
-        <img src="img/services-shape.png" alt="Image">
     </div>
 </section>
 <!-- Banner section end -->
