@@ -33,8 +33,6 @@
 <link rel="stylesheet" href="{{ asset('css/supplier/cs-skin-elastic.css') }}">
 {{-- <link rel="stylesheet" href="{{ asset('css/supplier/style.css') }}"> --}}
 <link rel="stylesheet" href="{{ asset('css/supplier/lib/chosen/chosen.min.css') }}">
-
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
 @endsection
 
 @section('content')

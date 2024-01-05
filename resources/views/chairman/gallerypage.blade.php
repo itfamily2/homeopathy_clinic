@@ -7,9 +7,6 @@
 
         <link href="img/favicon.ico" rel="shortcut icon" />
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="{{ asset('css/main/mainlayout/bootstrap.min.css') }}" />
@@ -35,7 +32,6 @@
         <link rel="stylesheet" href="css/media/templatemoo-style.css">
         
 
-        <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
         <script src="js/media/vendorr/modernizr-2.8.3-respond-1.4.2.minn.js"></script>
         

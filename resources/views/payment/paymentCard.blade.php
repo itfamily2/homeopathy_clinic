@@ -7,10 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Payment Card</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Croissant+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
     <link rel="stylesheet" href="{{ asset('css/css_p/bootstrap.css') }}">
 
     <link rel="stylesheet" href="{{ asset('css/css_p/font-awesome.min.css') }}">

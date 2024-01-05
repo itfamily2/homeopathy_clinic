@@ -19,16 +19,13 @@
  
      <!-- Fonts -->
      <link rel="dns-prefetch" href="//fonts.gstatic.com">
-     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
  
      <!-- Styles -->
      <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
      <link href="img/favicon.ico" rel="shortcut icon" />
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet">
+   
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="{{ asset('css/main/mainlayout/bootstrap.min.css') }}" />

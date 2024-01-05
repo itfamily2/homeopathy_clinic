@@ -4,7 +4,6 @@
 @section('description', 'Dr. Swati Ghosh offers healing through homeopathy at Dhunela, Sohna. Discover holistic care with a trusted homeopathy doctor near Sohna specializing in natural remedies for your well-being. <b></b>Call 8478019973</b> for enquiry to Ghosh CLinic')
 
 @section('styles')
-<link href="{{ asset('css/serv/service.css') }}" rel="stylesheet">
 @endsection
 
 @section('content')
