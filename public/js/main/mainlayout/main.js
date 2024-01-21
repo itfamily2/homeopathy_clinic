@@ -8,6 +8,12 @@
 
 'use strict';
 
+$(document).ready(function() {
+	$('.nav-switch').click(function() {
+	   $('.main-menu').toggleClass('active');
+	});
+ });
+ 
 var multipleCardCarousel = document.querySelector(
 	"#services-carousel"
 );

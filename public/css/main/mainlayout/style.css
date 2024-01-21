@@ -11,6 +11,24 @@
 /*----------------------------------------*/
 
 
+.main-menu {
+    display: none;
+ }
+ 
+ .main-menu.active {
+    display: block;
+ }
+ 
+ @media (max-width: 768px) {
+    .main-menu {
+       display: none;
+    }
+ 
+    .main-menu.active {
+       display: block;
+    }
+ }
+ 
 .horizontal-list li {
     margin-right: auto; /* Adjust as needed for spacing */
 }
@@ -1879,11 +1897,7 @@ ol {
         height: 70px;
         font-size: 25px;
     }
-
-    .service-content {
-        padding-left: 85px;
-    }
-
+    
     .newsletter-form {
         text-align: center;
     }

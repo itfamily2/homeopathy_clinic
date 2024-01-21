@@ -15,15 +15,15 @@
 
 
 <div class="services">
-@if(!auth::guest())
+    @if(!auth::guest())
     @if(auth::user()->type=="admin")
-<a class="btn btn-primary" href="/ServiceTest/create">
-Add new services
-</a>
+    <a class="btn btn-primary" href="/ServiceTest/create">
+        Add new services
+    </a>
     @endif
-@endif
-<h1>Our Services</h1>
-</div>  
+    @endif
+    <h1>Our Services</h1>
+</div>
 
 <section class="services-area pt-100 pb-70">
     <div class="container">
@@ -31,7 +31,7 @@ Add new services
             <h1>Homeopathic Treatment</h1>
         </div>
         <div class="row">
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-varicocele"> <img src="upload/service/large/1696943114.varicocele_img.png" alt="varicocele icon"></a>
@@ -47,7 +47,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//hashimotos-thyroiditis"> <img src="upload/service/large/1626518045.thyroid_icon.png" alt="hashimotos thyroiditis icon"></a>
@@ -63,7 +63,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-epilpesy"> <img src="upload/service/large/1627630205.1624536313.DD_icon-min.png" alt="The best Homeopathy Treatment for Epilepsy"></a>
@@ -79,7 +79,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-cerebral-palsy"> <img src="upload/service/large/1627630269.1624536313.DD_icon-min.png" alt="cerebral palsy"></a>
@@ -95,7 +95,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-children-diseases"> <img src="upload/service/large/1627630321.1623746351.Child_icon-min.png" alt="The best Homeopathy Treatment for Child"></a>
@@ -111,7 +111,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-urticaria"> <img src="upload/service/large/1679298844.3.png" alt="urticaria homeopathic treatment"></a>
@@ -127,7 +127,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-wheat-allergy"> <img src="upload/service/large/1623600632.Abdomen_Pain.png" alt=""></a>
@@ -143,7 +143,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-warts"> <img src="upload/service/large/1623595278.warts.png" alt="Homeopathic treatment for warts"></a>
@@ -159,7 +159,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-hyperthyroid"> <img src="upload/service/large/1623424894.Hypothyroid_icon.png" alt="hyperthyroid icon"></a>
@@ -175,7 +175,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-hypothyroid"> <img src="upload/service/large/1623424693.Hypothyroid_icon.png" alt="hypothyroid icon"></a>
@@ -184,14 +184,14 @@ Add new services
                         <h3>
                             <a href="https://ghoshclinic.com//homeopathic-treatment-for-hypothyroid">Hypothyroid</a>
                         </h3>
-                        <p style="font-size:14px;">Feeling lethargy, No desire to work? weight gain?  Click here to know more about Hypothyroid &amp; Best Homeopathic treatment for Hypothyroid near you.</p>
+                        <p style="font-size:14px;">Feeling lethargy, No desire to work? weight gain? Click here to know more about Hypothyroid &amp; Best Homeopathic treatment for Hypothyroid near you.</p>
                     </div>
                     <div class="serv1-btn">
                         <a href="/contact2" title="Book Appointment"><i class="fa fa-calendar" aria-hidden="true"></i></a><a href="https://ghoshclinic.com/skin-diseases" target="_blank" title="Start Treatment"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-pain-in-abdomen"> <img src="upload/service/large/1620578735.Abdomen_Pain.png" alt="Pain in abdomen Icon"></a>
@@ -207,7 +207,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-flatulence"> <img src="upload/service/large/1620577929.Flatulence.png" alt="flatulence icon"></a>
@@ -223,7 +223,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-epistaxis"> <img src="upload/service/large/1620577511.Epistaxis.png" alt="Homeopathy for Epistaxis"></a>
@@ -239,7 +239,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-eczema"> <img src="upload/service/large/1620576727.Eczema.png" alt="homeopathy treatment for eczema"></a>
@@ -248,14 +248,14 @@ Add new services
                         <h3>
                             <a href="https://ghoshclinic.com//homeopathic-treatment-for-eczema">Eczema</a>
                         </h3>
-                        <p style="font-size:14px;">Spending sleepless nights due to itching?  No relief with steroids application?  Read more about Eczema &amp; Visit Best Homeopathic doctor for Eczema near you.</p>
+                        <p style="font-size:14px;">Spending sleepless nights due to itching? No relief with steroids application? Read more about Eczema &amp; Visit Best Homeopathic doctor for Eczema near you.</p>
                     </div>
                     <div class="serv1-btn">
                         <a href="/contact2" title="Book Appointment"><i class="fa fa-calendar" aria-hidden="true"></i></a><a href="https://ghoshclinic.com/skin-diseases" target="_blank" title="Start Treatment"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-dysphagia"> <img src="upload/service/large/1627637853.1620570965.Dysphagia-min.png" alt=""></a>
@@ -271,7 +271,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-indigestion"> <img src="upload/service/large/1679299116.6.png" alt=""></a>
@@ -287,7 +287,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-depression"> <img src="upload/service/large/1620802460.Depression.png" alt=""></a>
@@ -303,7 +303,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-cough"> <img src="upload/service/large/1627637825.1620565862.Cough-min.png" alt="cough icon"></a>
@@ -319,7 +319,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//carpal-tunnel-syndrome"> <img src="upload/service/large/1679298937.5.png" alt="carpel tunnel syndrome icon"></a>
@@ -335,7 +335,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-appendicitis"> <img src="upload/service/large/1627637768.1620537693.Appendix_treatment-min.png" alt=""></a>
@@ -351,7 +351,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-rickets"> <img src="upload/service/large/1679298899.4.png" alt=""></a>
@@ -367,7 +367,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-of-molluscum-contagiosum"> <img src="upload/service/large/1627637734.1619360308.Molluscum_icon-min.png" alt="molluscum contagiosum icon"></a>
@@ -383,7 +383,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-of-hemangioma"> <img src="upload/service/large/1627637705.1619356949.Hemangioma_Icon-min.png" alt="hemangioma icon"></a>
@@ -399,7 +399,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-of-atopic-dermatitis"> <img src="upload/service/large/1620802936.Atopic-Dermatitis.png" alt=""></a>
@@ -415,7 +415,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-acne"> <img src="upload/service/large/1627637660.1619336564.Acne_icon-min.png" alt="acne icon"></a>
@@ -431,7 +431,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//best-homeopathic-treatment-for-anorexia-nervosa"> <img src="upload/service/large/1620803009.Anorexia-Nervosa.png" alt=""></a>
@@ -447,7 +447,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-bronchitis"> <img src="upload/service/large/1628664160.1620803072.Bronchitis-min.png" alt="The best Homeopathy Treatment for Bronchitis "></a>
@@ -463,7 +463,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-tonsillitis"> <img src="upload/service/large/1620803150.Tonsilitis.png" alt="Homeopathic treatment for Tonsillitis"></a>
@@ -479,7 +479,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-sinusitis"> <img src="upload/service/large/1679297176.sinusitis.png" alt="Homoeopathic Treatment for Sinusitis "></a>
@@ -495,7 +495,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-adenoids"> <img src="upload/service/large/1620803673.Adenoids.png" alt="adenoids icon"></a>
@@ -511,7 +511,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-asthma"> <img src="upload/service/large/1620803742.Asthma.png" alt="homeopathic treatment for asthma"></a>
@@ -527,7 +527,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-joint-pains"> <img src="upload/service/large/1620803852.Joint-Pains.png" alt="Joint Pains icon"></a>
@@ -543,7 +543,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-Osteoarthritis"> <img src="upload/service/large/1627637628.1616395943.arth-min.png" alt=""></a>
@@ -559,7 +559,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-acidity"> <img src="upload/service/large/1627637589.1616395818.digestive-min.png" alt="Acidity icon"></a>
@@ -575,7 +575,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-constipation"> <img src="upload/service/large/1627637488.1616395674.cons-min.png" alt=""></a>
@@ -591,7 +591,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//cancer"> <img src="upload/service/large/1679299005.7.png" alt=""></a>
@@ -607,7 +607,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-lifestyle-disorder"> <img src="upload/service/large/1627637400.1616395359.Lifestyle-Disorder-min.png" alt="Homoeopathic Treatment for Lifestyle Disorder"></a>
@@ -623,7 +623,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//premenstrual-syndrome"> <img src="upload/service/large/1627637364.1616395063.Premenstrual-Syndrome-min.png" alt=""></a>
@@ -639,7 +639,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-menopause"> <img src="upload/service/large/1627637455.1616395401.Menopause-min.png" alt=""></a>
@@ -655,7 +655,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-alopecia-areata"> <img src="upload/service/large/1616394699.alo.png" alt="Homeopathic treatment for alopecia"></a>
@@ -671,7 +671,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-poor-weight-gain"> <img src="upload/service/large/1616394583.poor.png" alt=""></a>
@@ -687,7 +687,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-Seborrheic-dermatitis"> <img src="upload/service/large/1616394454.Seborrhoeic-Dermatisis.png" alt="seborrheic dermatitis icon"></a>
@@ -703,7 +703,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-migraine"> <img src="upload/service/large/1616394272.mig.png" alt="Treatment for Migraine"></a>
@@ -719,7 +719,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-allergic-rhinitis"> <img src="upload/service/large/1616394102.service-8.png" alt=""></a>
@@ -735,7 +735,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-kidney-stone"> <img src="upload/service/large/1616394007.kidney.png" alt=""></a>
@@ -751,7 +751,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-psoriasis"> <img src="upload/service/large/1615898151.service-10.png" alt=""></a>
@@ -767,7 +767,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-autism"> <img src="upload/service/large/1628664697.1613715848.service-1-min.png" alt="Best Homeopathic Medicine for Autism "></a>
@@ -783,7 +783,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-adhd"> <img src="upload/service/large/1628664383.1613715805.service-2-min.png" alt="The best Homeopathic Treatment for ADHD "></a>
@@ -799,7 +799,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-down-syndrome"> <img src="upload/service/large/1628664261.1613715762.service-3-min.png" alt="The best Homeopathic Treatment for Down Syndrome "></a>
@@ -815,7 +815,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-developmental-delay"> <img src="upload/service/large/1627630577.1624536313.DD_icon-min.png" alt="developmental delay icon"></a>
@@ -831,7 +831,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-dyslexia"> <img src="upload/service/large/1613715651.service-5.png" alt="Homoeopathic Treatment for dyslexia"></a>
@@ -847,7 +847,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-thyroid-disease"> <img src="upload/service/large/1613715608.service-6.png" alt="Thyroid icon"></a>
@@ -863,7 +863,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-pcod-pcos"> <img src="upload/service/large/1613715566.service-7.png" alt="PCOD icon"></a>
@@ -879,7 +879,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-allergies"> <img src="upload/service/large/1613715493.service-8.png" alt=""></a>
@@ -895,7 +895,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-hair-fall"> <img src="upload/service/large/1613715432.service-9.png" alt="Hair fall icon"></a>
@@ -911,7 +911,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-skin-allergies"> <img src="upload/service/large/1679299075.8.png" alt="skin allergy icon"></a>
@@ -927,7 +927,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//hormonal-disorder"> <img src="upload/service/large/1613715315.service-11.png" alt=""></a>
@@ -943,7 +943,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                        <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="single-services" style="box-shadow: 0 0 3px 3px #E0E0E0;">
                     <div class="services-icon">
                         <a href="https://ghoshclinic.com//homeopathic-treatment-for-short-height"> <img src="upload/service/large/1613715239.service-12.png" alt="short height icon"></a>
@@ -959,7 +959,7 @@ Add new services
                     </div>
                 </div>
             </div>
-                    </div>
+        </div>
     </div>
     <div class="services-shape">
         <img src="https://www.homoeocare.co.in/site/views/assets/img/services-shape.png" alt="Image">
@@ -967,29 +967,29 @@ Add new services
 </section>
 
 <div class="services">
-<div class="container">
-@if (count($posts)>0)
-@foreach ($posts as $post)
-<div class="service left col-lg-6 col-md-12 col-sm-12 p-5">
-<img src="/storage/images/{{$post->image}}" >
-<h2 class="text-center">{{ $post->title }}</h2>
-<p>{{ $post->description }}</p>
-@if(!auth::guest())
-@if(auth::user()->id == $post->user_id)
-    <a class="btn btn-primary" href="/ServiceTest/{{ $post->id }}/edit">Edit</a>
-    <form class="form" action="/ServiceTest/{{ $post->id }}" method="POST">
-        {{ csrf_field() }}
-        {{ method_field('DELETE') }}
-        <input type="submit" class="btn btn-danger" value="Remove">
-    </form>
-@endif
-@endif
-</div>
-@endforeach
-@else
-<p>No posts to show</p>
-@endif    
-</div>
+    <div class="container">
+        @if (count($posts)>0)
+        @foreach ($posts as $post)
+        <div class="service left col-lg-6 col-md-12 col-sm-12 p-5">
+            <img src="/storage/images/{{$post->image}}">
+            <h2 class="text-center">{{ $post->title }}</h2>
+            <p>{{ $post->description }}</p>
+            @if(!auth::guest())
+            @if(auth::user()->id == $post->user_id)
+            <a class="btn btn-primary" href="/ServiceTest/{{ $post->id }}/edit">Edit</a>
+            <form class="form" action="/ServiceTest/{{ $post->id }}" method="POST">
+                {{ csrf_field() }}
+                {{ method_field('DELETE') }}
+                <input type="submit" class="btn btn-danger" value="Remove">
+            </form>
+            @endif
+            @endif
+        </div>
+        @endforeach
+        @else
+        <p>No posts to show</p>
+        @endif
+    </div>
 
 
 </div>
